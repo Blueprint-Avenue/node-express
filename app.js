@@ -18,8 +18,9 @@
 
 
 
-const rectangle = require('./rectangle');
-const rect = require('./rectangle');
+// const rectangle = require('./rectangle');
+
+import {rectangle}  from '..node-examples/rectangle';
 
 function solveRect(l, w) {
     console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);
